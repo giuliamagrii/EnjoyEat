@@ -1,0 +1,342 @@
+.custom-background{
+    background-color:white;
+  }
+
+
+.svg-container {
+  display: none;
+}
+
+.header{
+  position: relative;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer{
+  position:relative;
+  bottom: 0;
+  right:0;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+  .modify,
+  .pink{
+    background-color: #ff0957;
+    color: white;
+  }
+
+  .modify,
+  .pink:hover{
+    background-color: #f96392;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .color-black{
+    color:black;
+  }
+
+  .color-pink{
+    color:#ff0957;
+    fill:#ff0957;
+  }
+
+  .color-pink:hover{
+    color:#ff0957;
+  }
+
+
+  .color-white{
+    color:white;
+  }
+
+  .color-black:hover{
+    color: black;
+  }
+
+  .color-white:hover{
+    color:white;
+  }
+
+  .nav-link.other{
+    color:black;
+  }
+
+  .other{
+    fill:black;
+  }
+
+  .white{
+    fill:white;
+  }
+
+  /* 68c044 */
+  .btn-custom{
+    background-color: #f9d11f;
+    color: black;
+  }
+
+  .btn-custom:hover {
+    background-color: #fce270;
+  }
+
+  .custom-spacing2 {
+    margin-right: 25px;
+  }
+
+  .custom-hero {
+    height:400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .custom-hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .custom-hero3 {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .custom-hero4 {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .custom-form-hero{
+    background-color: white;
+    margin-bottom: 20px;
+    height: 60px;
+    display: flex;
+  }
+
+
+  .input-shorter{
+    height: 60px;
+    border:none;
+  }
+
+  .custom-select{
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); 
+  }
+
+  .custom-recensione {
+    width: 300px; /* Adjust the width as needed */
+    margin-right: 20px; /* Add margin to separate review cards */
+}
+
+/* Use flexbox to align the review cards horizontally */
+  .reviews-row {
+    display: flex;
+    overflow-x: auto;
+    margin-bottom:20px;
+}
+
+  .custom-form{
+    height: 60px;
+  }
+
+  .subtitle{
+    margin-bottom: 20px;
+  }
+
+  .item-space{
+    margin-left: 20px;
+  }
+
+  .btn.food.selected {
+    transform: scale(1.1); /* Increase the size by 10% when selected */
+  }
+
+  .little-food:hover{
+    transform: scale(1.1); /* Scale up the button on hover */
+  }
+
+  .custom-input{
+    margin-right: 100px;
+  }
+
+  .custom-photo{
+    margin-left: 100px;
+  }
+
+  .search{
+    background-color: #11b151;
+    color: white;
+  }
+
+  .search:hover{
+    background-color: #56e790;
+    color: white;
+  }
+
+  .container.custom-search{
+    margin-left: 500px;
+    margin-right: 60px; 
+  }
+
+  .custom-sidebar {
+    background-color: #ffffff;
+    width: 80px;
+    height:100%;
+    margin-top: 10px;
+  }
+
+  .navpink {
+    fill:#ff0957;
+  }
+
+  .btn.btn-link.custom-spacing2 {
+    transition: transform 0.3s;
+    margin-left: 10px;
+  }
+
+  .btn.btn-link.custom-spacing2:hover {
+    transform: scale(1.5); 
+  }
+
+  .big:hover{
+    transform: scale(1.5); 
+  }
+
+  .tag-input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    outline: none;
+    }
+    
+    .tag-list-container {
+    max-height: 50px; 
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  
+  .tag-badge {
+    display: inline-block;
+    margin: 2px;
+    font-size: 16px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #ff0957;
+}
+
+.tag-badge > .btn-close {
+    font-size: 0.75rem;
+    margin-left: 4px;
+}
+
+.tag-box{
+  padding: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.tag-list {
+  list-style: none;
+  margin-top: 5px;
+}
+
+.custom-recensione{
+  display: flex; 
+  flex-direction: row; 
+  border-left: none; 
+  border-right: none;
+  border-radius: 0%;
+}
+
+.cal-month,
+.cal-days {
+  display: grid;
+  grid-template-columns: repeat(7, 45px);
+  align-items: center;
+}
+
+.cal-weekdays{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add this property */
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cal-month-name {
+  grid-column-start: 2;
+  grid-column-end: 7;
+  text-align: center;
+}
+
+.cal-weekday,
+.cal-btn {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  padding: 0;
+}
+.cal-btn:not([disabled]) {
+  font-weight: 500;
+  color: var(--bs-emphasis-color);
+}
+.cal-btn:hover,
+.cal-btn:focus {
+  background-color: var(--bs-secondary-bg);
+}
+.cal-btn[disabled] {
+  border: 0;
+  opacity: .5;
+}
+
+.auto-resize{
+  overflow:visible;
+  resize:vertical;
+}
+
+.custom-container{
+  height: 600px;
+}
+
